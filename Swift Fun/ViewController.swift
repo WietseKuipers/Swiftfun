@@ -3,8 +3,8 @@
 //  Swift Fun
 //
 //  Created by Wietse Kuipers on 03/11/2018.
-//  Copyright © 2018 Wietse Kuipers. All rights reserved.
-//
+//  Copyright © 2018 Wietse Kuipers. All rights reserved..
+//  Hello I like cheesy jokes
 
 import UIKit
 
