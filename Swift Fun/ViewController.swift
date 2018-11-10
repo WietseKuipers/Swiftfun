@@ -10,11 +10,33 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    var Buttoncount = 0
+    @IBOutlet weak var MyLabel: UILabel!
+    
+    
+    @IBAction func ButtonTapped(_ sender: Any) {
+        
+        Buttoncount = Buttoncount + 1
+        
+        print (Buttoncount)
+        
+        if Buttoncount > 10 {
+        
+        view.backgroundColor = UIColor.red
+        
+        MyLabel.text = "Wietse is cool"
+        
+        }
+        
+        func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
+
+}
 
 }
 
